@@ -1,0 +1,9 @@
+make
+gdb csim
+start -s 4 -E 1 -b 4 -t traces/yi.trace
+layout next
+b 219
+c
+
+make
+./csim-ref -s 5 -E 3 -b 2 -t traces/long.trace

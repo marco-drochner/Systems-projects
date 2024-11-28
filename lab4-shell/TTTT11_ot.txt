@@ -1,0 +1,72 @@
+    PID TTY      STAT   TIME COMMAND
+  14526 pts/2    Ss+    0:00 bash
+ 501052 tty2     Ss+    0:00 /sbin/agetty -o -p -- \u --noclear tty2 linux
+ 503811 tty3     Ssl+   0:00 /usr/libexec/gdm-wayland-session --register-session gnome-session
+ 503814 tty3     Sl+    0:00 /usr/libexec/gnome-session-binary
+ 503894 tty3     Sl+    0:33 /usr/bin/gnome-shell
+ 504030 tty3     Sl+    0:15 /usr/bin/Xwayland :0 -rootless -terminate -accessx -core -auth /run/user/3913/.mutter-Xwaylandauth.S318C2 -listen 4 -listen 5 -displayfd 6
+ 504132 tty3     Sl     0:01 ibus-daemon --xim --panel disable
+ 504140 tty3     Sl     0:00 /usr/libexec/ibus-dconf
+ 504141 tty3     Sl     0:00 /usr/libexec/ibus-extension-gtk3
+ 504143 tty3     Sl     0:00 /usr/libexec/ibus-x11 --kill-daemon
+ 504240 tty3     Sl+    0:00 /usr/libexec/gsd-power
+ 504242 tty3     Sl+    0:00 /usr/libexec/gsd-print-notifications
+ 504243 tty3     Sl+    0:00 /usr/libexec/gsd-rfkill
+ 504244 tty3     Sl+    0:00 /usr/libexec/gsd-screensaver-proxy
+ 504245 tty3     Sl+    0:00 /usr/libexec/gsd-sharing
+ 504246 tty3     Sl+    0:00 /usr/libexec/gsd-sound
+ 504248 tty3     Sl+    0:00 /usr/libexec/gsd-xsettings
+ 504252 tty3     Sl+    0:00 /usr/libexec/gsd-wacom
+ 504255 tty3     Sl+    0:03 /usr/libexec/gsd-smartcard
+ 504258 tty3     Sl+    0:00 /usr/libexec/gsd-account
+ 504275 tty3     Sl+    0:00 /usr/libexec/gsd-a11y-settings
+ 504277 tty3     Sl+    0:00 /usr/libexec/gsd-clipboard
+ 504278 tty3     Sl+    0:00 /usr/libexec/gsd-color
+ 504282 tty3     Sl+    0:00 /usr/libexec/gsd-datetime
+ 504285 tty3     Sl+    0:06 /usr/libexec/gsd-housekeeping
+ 504287 tty3     Sl+    0:00 /usr/libexec/gsd-keyboard
+ 504289 tty3     Sl+    0:00 /usr/libexec/gsd-media-keys
+ 504292 tty3     Sl+    0:00 /usr/libexec/gsd-mouse
+ 504342 tty3     Sl     0:00 /usr/libexec/ibus-engine-simple
+ 504413 tty3     Sl+    0:00 /usr/libexec/gsd-printer
+ 504495 tty3     Sl+    6:27 /usr/libexec/KeyAccess
+ 504504 tty3     Sl+    0:00 /usr/libexec/gsd-disk-utility-notify
+ 504609 pts/0    Ss+    0:00 bash
+ 504729 pts/0    Sl     0:05 emacs tsh.c
+ 505666 pts/0    T      0:00 make test08
+ 505667 pts/0    T      0:00 /usr/bin/perl ./sdriver.pl -t trace08.txt -s ./tsh -a -p
+ 505668 pts/0    S      0:00 ./tsh -p
+ 505675 pts/0    T      0:00 ./myspin 5
+ 594129 pts/1    Ss     0:00 bash
+ 671659 pts/2    Sl     0:00 emacs bow.py
+ 679521 tty1     Ssl+   0:00 /usr/libexec/gdm-wayland-session --register-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+ 679528 tty1     S+     0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+ 679529 tty1     Sl+    0:00 dbus-daemon --nofork --print-address 4 --session
+ 679531 tty1     Sl+    0:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+ 679559 tty1     Sl+    0:06 /usr/bin/gnome-shell
+ 679692 tty1     Sl+    0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -auth /run/user/42/.mutter-Xwaylandauth.UKNGD2 -listen 4 -listen 5 -displayfd 6
+ 679740 tty1     Sl+    0:00 /usr/libexec/at-spi-bus-launcher
+ 679745 tty1     Sl+    0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ 679748 tty1     Sl+    0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ 679760 tty1     Sl     0:00 ibus-daemon --xim --panel disable
+ 679763 tty1     Sl     0:00 /usr/libexec/ibus-dconf
+ 679765 tty1     Sl     0:00 /usr/libexec/ibus-x11 --kill-daemon
+ 679768 tty1     Sl+    0:00 /usr/libexec/ibus-portal
+ 679777 tty1     Sl+    0:00 /usr/libexec/xdg-permission-store
+ 679820 tty1     Sl+    0:00 /usr/libexec/gsd-a11y-settings
+ 679822 tty1     Sl+    0:00 /usr/libexec/gsd-color
+ 679823 tty1     Sl+    0:00 /usr/libexec/gsd-datetime
+ 679826 tty1     Sl+    0:00 /usr/libexec/gsd-housekeeping
+ 679827 tty1     Sl+    0:00 /usr/libexec/gsd-keyboard
+ 679828 tty1     Sl+    0:00 /usr/libexec/gsd-media-keys
+ 679831 tty1     Sl+    0:00 /usr/libexec/gsd-power
+ 679833 tty1     Sl+    0:00 /usr/libexec/gsd-print-notifications
+ 679834 tty1     Sl+    0:00 /usr/libexec/gsd-rfkill
+ 679835 tty1     Sl+    0:00 /usr/libexec/gsd-screensaver-proxy
+ 679836 tty1     Sl+    0:00 /usr/libexec/gsd-sharing
+ 679839 tty1     Sl+    0:00 /usr/libexec/gsd-smartcard
+ 679842 tty1     Sl+    0:00 /usr/libexec/gsd-sound
+ 679845 tty1     Sl+    0:00 /usr/libexec/gsd-wacom
+ 679892 tty1     Sl     0:00 /usr/libexec/ibus-engine-simple
+ 716625 pts/3    Ss+    0:00 -bash
+ 716824 pts/1    R+     0:00 ps a

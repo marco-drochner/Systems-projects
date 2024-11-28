@@ -1,0 +1,6 @@
+q
+y
+make
+gdb proxy
+start -2147483648
+b 
